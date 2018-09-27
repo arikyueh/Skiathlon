@@ -1,0 +1,28 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  "../../../lab7.srcs/sources_1/new/chooseRND.v"
+verilog xil_defaultlib  "../../../lab7.srcs/sources_1/new/m8x16.v"
+verilog xil_defaultlib  "../../../lab7.srcs/sources_1/imports/new/LFSR.v"
+verilog xil_defaultlib  "../../../lab7.srcs/sources_1/imports/new/countUD4L.v"
+verilog xil_defaultlib  "../../../lab7.srcs/sources_1/imports/new/Full Adder.v"
+verilog xil_defaultlib  "../../../lab7.srcs/sources_1/imports/new/m8_1e.v"
+verilog xil_defaultlib  "../../../lab7.srcs/sources_1/imports/Downloads/lab7_clks.v"
+verilog xil_defaultlib  "../../../lab7.srcs/sources_1/new/Gate_Machine.v"
+verilog xil_defaultlib  "../../../lab7.srcs/sources_1/imports/new/TurkeyCounter.v"
+verilog xil_defaultlib  "../../../lab7.srcs/sources_1/imports/sources_1/imports/new/Selector.v"
+verilog xil_defaultlib  "../../../lab7.srcs/sources_1/imports/sources_1/imports/new/RingCounter.v"
+verilog xil_defaultlib  "../../../lab7.srcs/sources_1/imports/sources_1/new/m2_1x1.v"
+verilog xil_defaultlib  "../../../lab7.srcs/sources_1/imports/sources_1/imports/new/hex7seg.v"
+verilog xil_defaultlib  "../../../lab7.srcs/sources_1/imports/sources_1/new/AddOne.v"
+verilog xil_defaultlib  "../../../lab7.srcs/sources_1/imports/new/TimeCounter.v"
+verilog xil_defaultlib  "../../../lab7.srcs/sources_1/new/StateMachine.v"
+verilog xil_defaultlib  "../../../lab7.srcs/sources_1/new/Every8Frame.v"
+verilog xil_defaultlib  "../../../lab7.srcs/sources_1/imports/new/counterUD16L.v"
+verilog xil_defaultlib  "../../../lab7.srcs/sources_1/imports/new/m2_1x8.v"
+verilog xil_defaultlib  "../../../lab7.srcs/sources_1/new/VGAcontrol.v"
+verilog xil_defaultlib  "../../../lab7.srcs/sim_1/new/vga_sim.v"
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

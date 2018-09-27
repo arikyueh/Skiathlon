@@ -1,0 +1,26 @@
+0.6
+2016.3
+Oct 10 2016
+19:46:48
+C:/Users/ariky/Documents/CMPE100/lab7/lab7.sim/sim_1/behav/glbl.v,1476033524,verilog,,,,glbl,,,,,,,,
+C:/Users/ariky/Documents/CMPE100/lab7/lab7.srcs/sim_1/new/vga_sim.v,1520489011,verilog,,,,vga_sim,,,,,,,,
+C:/Users/ariky/Documents/CMPE100/lab7/lab7.srcs/sources_1/imports/Downloads/lab7_clks.v,1519774794,verilog,,,,CB4CE_MXILINX_clkcntrl4;FTCE_MXILINX_clkcntrl4;clk_wiz_0;clkcntrl4;lab7_clks,,,,,,,,
+C:/Users/ariky/Documents/CMPE100/lab7/lab7.srcs/sources_1/imports/new/Full Adder.v,1516151152,verilog,,,,FullAdder,,,,,,,,
+C:/Users/ariky/Documents/CMPE100/lab7/lab7.srcs/sources_1/imports/new/LFSR.v,1518808332,verilog,,,,LFSR,,,,,,,,
+C:/Users/ariky/Documents/CMPE100/lab7/lab7.srcs/sources_1/imports/new/TimeCounter.v,1519783821,verilog,,,,TimeCounter,,,,,,,,
+C:/Users/ariky/Documents/CMPE100/lab7/lab7.srcs/sources_1/imports/new/TurkeyCounter.v,1519267693,verilog,,,,TurkeyCounter,,,,,,,,
+C:/Users/ariky/Documents/CMPE100/lab7/lab7.srcs/sources_1/imports/new/countUD4L.v,1517966254,verilog,,,,countUD4L,,,,,,,,
+C:/Users/ariky/Documents/CMPE100/lab7/lab7.srcs/sources_1/imports/new/counterUD16L.v,1519774921,verilog,,,,counterUD16L,,,,,,,,
+C:/Users/ariky/Documents/CMPE100/lab7/lab7.srcs/sources_1/imports/new/m2_1x8.v,1516946550,verilog,,,,m2_1x8,,,,,,,,
+C:/Users/ariky/Documents/CMPE100/lab7/lab7.srcs/sources_1/imports/new/m8_1e.v,1516752479,verilog,,,,m8_1e,,,,,,,,
+C:/Users/ariky/Documents/CMPE100/lab7/lab7.srcs/sources_1/imports/sources_1/imports/new/RingCounter.v,1518139012,verilog,,,,RingCounter,,,,,,,,
+C:/Users/ariky/Documents/CMPE100/lab7/lab7.srcs/sources_1/imports/sources_1/imports/new/Selector.v,1518132858,verilog,,,,Selector,,,,,,,,
+C:/Users/ariky/Documents/CMPE100/lab7/lab7.srcs/sources_1/imports/sources_1/imports/new/hex7seg.v,1517006206,verilog,,,,hex7seg,,,,,,,,
+C:/Users/ariky/Documents/CMPE100/lab7/lab7.srcs/sources_1/imports/sources_1/new/AddOne.v,1519279555,verilog,,,,AddOne,,,,,,,,
+C:/Users/ariky/Documents/CMPE100/lab7/lab7.srcs/sources_1/imports/sources_1/new/m2_1x1.v,1519264848,verilog,,,,m2_1x1,,,,,,,,
+C:/Users/ariky/Documents/CMPE100/lab7/lab7.srcs/sources_1/new/Every8Frame.v,1519784700,verilog,,,,Every8Frame,,,,,,,,
+C:/Users/ariky/Documents/CMPE100/lab7/lab7.srcs/sources_1/new/Gate_Machine.v,1520667036,verilog,,,,$unit_1;Gate_Machine,,,,,,,,
+C:/Users/ariky/Documents/CMPE100/lab7/lab7.srcs/sources_1/new/StateMachine.v,1520493367,verilog,,,,StateMachine,,,,,,,,
+C:/Users/ariky/Documents/CMPE100/lab7/lab7.srcs/sources_1/new/VGAcontrol.v,1521265077,verilog,,,,VGAcontrol,,,,,,,,
+C:/Users/ariky/Documents/CMPE100/lab7/lab7.srcs/sources_1/new/chooseRND.v,1520662579,verilog,,,,chooseRND,,,,,,,,
+C:/Users/ariky/Documents/CMPE100/lab7/lab7.srcs/sources_1/new/m8x16.v,1520643997,verilog,,,,m8x16,,,,,,,,

@@ -1,0 +1,1264 @@
+#-----------------------------------------------------------
+# Vivado v2016.3 (64-bit)
+# SW Build 1682563 on Mon Oct 10 19:07:27 MDT 2016
+# IP Build 1681267 on Mon Oct 10 21:28:31 MDT 2016
+# Start of session at: Fri Mar 09 23:53:01 2018
+# Process ID: 1700
+# Current directory: C:/Users/ariky/Documents/CMPE100/lab7/lab7.runs/synth_1
+# Command line: vivado.exe -log VGAcontrol.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source VGAcontrol.tcl
+# Log file: C:/Users/ariky/Documents/CMPE100/lab7/lab7.runs/synth_1/VGAcontrol.vds
+# Journal file: C:/Users/ariky/Documents/CMPE100/lab7/lab7.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source VGAcontrol.tcl -notrace
+Command: synth_design -top VGAcontrol -part xc7a35tcpg236-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 9264 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 292.348 ; gain = 82.973
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'VGAcontrol' [C:/Users/ariky/Documents/CMPE100/lab7/lab7.srcs/sources_1/new/VGAcontrol.v:23]
+INFO: [Synth 8-638] synthesizing module 'lab7_clks' [C:/Users/ariky/Documents/CMPE100/lab7/lab7.srcs/sources_1/imports/Downloads/lab7_clks.v:24]
+INFO: [Synth 8-638] synthesizing module 'clk_wiz_0' [C:/Users/ariky/Documents/CMPE100/lab7/lab7.srcs/sources_1/imports/Downloads/lab7_clks.v:57]
+INFO: [Synth 8-638] synthesizing module 'IBUF' [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:14146]
+	Parameter CAPACITANCE bound to: DONT_CARE - type: string 
+	Parameter IBUF_DELAY_VALUE bound to: 0 - type: string 
+	Parameter IBUF_LOW_PWR bound to: TRUE - type: string 
+	Parameter IFD_DELAY_VALUE bound to: AUTO - type: string 
+	Parameter IOSTANDARD bound to: DEFAULT - type: string 
+INFO: [Synth 8-256] done synthesizing module 'IBUF' (1#1) [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:14146]
+INFO: [Synth 8-638] synthesizing module 'MMCME2_ADV' [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:20414]
+	Parameter BANDWIDTH bound to: OPTIMIZED - type: string 
+	Parameter CLKFBOUT_MULT_F bound to: 9.125000 - type: float 
+	Parameter CLKFBOUT_PHASE bound to: 0.000000 - type: float 
+	Parameter CLKFBOUT_USE_FINE_PS bound to: FALSE - type: string 
+	Parameter CLKIN1_PERIOD bound to: 10.000000 - type: float 
+	Parameter CLKIN2_PERIOD bound to: 0.000000 - type: float 
+	Parameter CLKOUT0_DIVIDE_F bound to: 36.500000 - type: float 
+	Parameter CLKOUT0_DUTY_CYCLE bound to: 0.500000 - type: float 
+	Parameter CLKOUT0_PHASE bound to: 0.000000 - type: float 
+	Parameter CLKOUT0_USE_FINE_PS bound to: FALSE - type: string 
+	Parameter CLKOUT1_DIVIDE bound to: 1 - type: integer 
+	Parameter CLKOUT1_DUTY_CYCLE bound to: 0.500000 - type: float 
+	Parameter CLKOUT1_PHASE bound to: 0.000000 - type: float 
+	Parameter CLKOUT1_USE_FINE_PS bound to: FALSE - type: string 
+	Parameter CLKOUT2_DIVIDE bound to: 1 - type: integer 
+	Parameter CLKOUT2_DUTY_CYCLE bound to: 0.500000 - type: float 
+	Parameter CLKOUT2_PHASE bound to: 0.000000 - type: float 
+	Parameter CLKOUT2_USE_FINE_PS bound to: FALSE - type: string 
+	Parameter CLKOUT3_DIVIDE bound to: 1 - type: integer 
+	Parameter CLKOUT3_DUTY_CYCLE bound to: 0.500000 - type: float 
+	Parameter CLKOUT3_PHASE bound to: 0.000000 - type: float 
+	Parameter CLKOUT3_USE_FINE_PS bound to: FALSE - type: string 
+	Parameter CLKOUT4_CASCADE bound to: FALSE - type: string 
+	Parameter CLKOUT4_DIVIDE bound to: 1 - type: integer 
+	Parameter CLKOUT4_DUTY_CYCLE bound to: 0.500000 - type: float 
+	Parameter CLKOUT4_PHASE bound to: 0.000000 - type: float 
+	Parameter CLKOUT4_USE_FINE_PS bound to: FALSE - type: string 
+	Parameter CLKOUT5_DIVIDE bound to: 1 - type: integer 
+	Parameter CLKOUT5_DUTY_CYCLE bound to: 0.500000 - type: float 
+	Parameter CLKOUT5_PHASE bound to: 0.000000 - type: float 
+	Parameter CLKOUT5_USE_FINE_PS bound to: FALSE - type: string 
+	Parameter CLKOUT6_DIVIDE bound to: 1 - type: integer 
+	Parameter CLKOUT6_DUTY_CYCLE bound to: 0.500000 - type: float 
+	Parameter CLKOUT6_PHASE bound to: 0.000000 - type: float 
+	Parameter CLKOUT6_USE_FINE_PS bound to: FALSE - type: string 
+	Parameter COMPENSATION bound to: ZHOLD - type: string 
+	Parameter DIVCLK_DIVIDE bound to: 1 - type: integer 
+	Parameter IS_CLKINSEL_INVERTED bound to: 1'b0 
+	Parameter IS_PSEN_INVERTED bound to: 1'b0 
+	Parameter IS_PSINCDEC_INVERTED bound to: 1'b0 
+	Parameter IS_PWRDWN_INVERTED bound to: 1'b0 
+	Parameter IS_RST_INVERTED bound to: 1'b0 
+	Parameter REF_JITTER1 bound to: 0.010000 - type: float 
+	Parameter REF_JITTER2 bound to: 0.010000 - type: float 
+	Parameter SS_EN bound to: FALSE - type: string 
+	Parameter SS_MODE bound to: CENTER_HIGH - type: string 
+	Parameter SS_MOD_PERIOD bound to: 10000 - type: integer 
+	Parameter STARTUP_WAIT bound to: FALSE - type: string 
+INFO: [Synth 8-256] done synthesizing module 'MMCME2_ADV' (2#1) [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:20414]
+INFO: [Synth 8-638] synthesizing module 'BUFG' [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:607]
+INFO: [Synth 8-256] done synthesizing module 'BUFG' (3#1) [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:607]
+INFO: [Synth 8-256] done synthesizing module 'clk_wiz_0' (4#1) [C:/Users/ariky/Documents/CMPE100/lab7/lab7.srcs/sources_1/imports/Downloads/lab7_clks.v:57]
+INFO: [Synth 8-638] synthesizing module 'clkcntrl4' [C:/Users/ariky/Documents/CMPE100/lab7/lab7.srcs/sources_1/imports/Downloads/lab7_clks.v:190]
+INFO: [Synth 8-638] synthesizing module 'CB4CE_MXILINX_clkcntrl4' [C:/Users/ariky/Documents/CMPE100/lab7/lab7.srcs/sources_1/imports/Downloads/lab7_clks.v:306]
+INFO: [Synth 8-638] synthesizing module 'FTCE_MXILINX_clkcntrl4' [C:/Users/ariky/Documents/CMPE100/lab7/lab7.srcs/sources_1/imports/Downloads/lab7_clks.v:276]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-638] synthesizing module 'XOR2' [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:45290]
+INFO: [Synth 8-256] done synthesizing module 'XOR2' (5#1) [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:45290]
+INFO: [Synth 8-638] synthesizing module 'FDCE' [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:3748]
+	Parameter INIT bound to: 1'b0 
+	Parameter IS_CLR_INVERTED bound to: 1'b0 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_D_INVERTED bound to: 1'b0 
+INFO: [Synth 8-256] done synthesizing module 'FDCE' (6#1) [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:3748]
+INFO: [Synth 8-256] done synthesizing module 'FTCE_MXILINX_clkcntrl4' (7#1) [C:/Users/ariky/Documents/CMPE100/lab7/lab7.srcs/sources_1/imports/Downloads/lab7_clks.v:276]
+INFO: [Synth 8-638] synthesizing module 'AND4' [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:108]
+INFO: [Synth 8-256] done synthesizing module 'AND4' (8#1) [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:108]
+INFO: [Synth 8-638] synthesizing module 'AND3' [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:60]
+INFO: [Synth 8-256] done synthesizing module 'AND3' (9#1) [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:60]
+INFO: [Synth 8-638] synthesizing module 'AND2' [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:14]
+INFO: [Synth 8-256] done synthesizing module 'AND2' (10#1) [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:14]
+INFO: [Synth 8-638] synthesizing module 'VCC' [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:44693]
+INFO: [Synth 8-256] done synthesizing module 'VCC' (11#1) [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:44693]
+INFO: [Synth 8-256] done synthesizing module 'CB4CE_MXILINX_clkcntrl4' (12#1) [C:/Users/ariky/Documents/CMPE100/lab7/lab7.srcs/sources_1/imports/Downloads/lab7_clks.v:306]
+INFO: [Synth 8-638] synthesizing module 'BUF' [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:567]
+INFO: [Synth 8-256] done synthesizing module 'BUF' (13#1) [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:567]
+WARNING: [Synth 8-3848] Net qsec in module/entity clkcntrl4 does not have driver. [C:/Users/ariky/Documents/CMPE100/lab7/lab7.srcs/sources_1/imports/Downloads/lab7_clks.v:194]
+INFO: [Synth 8-256] done synthesizing module 'clkcntrl4' (14#1) [C:/Users/ariky/Documents/CMPE100/lab7/lab7.srcs/sources_1/imports/Downloads/lab7_clks.v:190]
+WARNING: [Synth 8-4446] all outputs are unconnected for this instance and logic may be removed [C:/Users/ariky/Documents/CMPE100/lab7/lab7.srcs/sources_1/imports/Downloads/lab7_clks.v:40]
+INFO: [Synth 8-638] synthesizing module 'STARTUPE2' [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:43498]
+	Parameter PROG_USR bound to: FALSE - type: string 
+	Parameter SIM_CCLK_FREQ bound to: 0.000000 - type: float 
+INFO: [Synth 8-256] done synthesizing module 'STARTUPE2' (15#1) [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:43498]
+INFO: [Synth 8-256] done synthesizing module 'lab7_clks' (16#1) [C:/Users/ariky/Documents/CMPE100/lab7/lab7.srcs/sources_1/imports/Downloads/lab7_clks.v:24]
+WARNING: [Synth 8-350] instance 'not_so_slow' of module 'lab7_clks' requires 5 connections, but only 4 given [C:/Users/ariky/Documents/CMPE100/lab7/lab7.srcs/sources_1/new/VGAcontrol.v:52]
+INFO: [Synth 8-638] synthesizing module 'StateMachine' [C:/Users/ariky/Documents/CMPE100/lab7/lab7.srcs/sources_1/new/StateMachine.v:23]
+INFO: [Synth 8-638] synthesizing module 'FDRE' [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:3964]
+	Parameter INIT bound to: 1'b1 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_D_INVERTED bound to: 1'b0 
+	Parameter IS_R_INVERTED bound to: 1'b0 
+INFO: [Synth 8-256] done synthesizing module 'FDRE' (17#1) [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:3964]
+INFO: [Synth 8-638] synthesizing module 'FDRE__parameterized0' [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:3964]
+	Parameter INIT bound to: 1'b0 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_D_INVERTED bound to: 1'b0 
+	Parameter IS_R_INVERTED bound to: 1'b0 
+INFO: [Synth 8-256] done synthesizing module 'FDRE__parameterized0' (17#1) [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:3964]
+INFO: [Synth 8-638] synthesizing module 'FDRE__parameterized1' [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:3964]
+	Parameter INIT bound to: 1'b0 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_D_INVERTED bound to: 1'b0 
+	Parameter IS_R_INVERTED bound to: 1'b0 
+INFO: [Synth 8-256] done synthesizing module 'FDRE__parameterized1' (17#1) [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:3964]
+INFO: [Synth 8-638] synthesizing module 'FDRE__parameterized2' [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:3964]
+	Parameter INIT bound to: 1'b0 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_D_INVERTED bound to: 1'b0 
+	Parameter IS_R_INVERTED bound to: 1'b0 
+INFO: [Synth 8-256] done synthesizing module 'FDRE__parameterized2' (17#1) [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:3964]
+INFO: [Synth 8-638] synthesizing module 'FDRE__parameterized3' [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:3964]
+	Parameter INIT bound to: 1'b0 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_D_INVERTED bound to: 1'b0 
+	Parameter IS_R_INVERTED bound to: 1'b0 
+INFO: [Synth 8-256] done synthesizing module 'FDRE__parameterized3' (17#1) [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:3964]
+INFO: [Synth 8-638] synthesizing module 'FDRE__parameterized4' [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:3964]
+	Parameter INIT bound to: 1'b0 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_D_INVERTED bound to: 1'b0 
+	Parameter IS_R_INVERTED bound to: 1'b0 
+INFO: [Synth 8-256] done synthesizing module 'FDRE__parameterized4' (17#1) [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:3964]
+INFO: [Synth 8-638] synthesizing module 'FDRE__parameterized5' [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:3964]
+	Parameter INIT bound to: 1'b0 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_D_INVERTED bound to: 1'b0 
+	Parameter IS_R_INVERTED bound to: 1'b0 
+INFO: [Synth 8-256] done synthesizing module 'FDRE__parameterized5' (17#1) [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:3964]
+INFO: [Synth 8-256] done synthesizing module 'StateMachine' (18#1) [C:/Users/ariky/Documents/CMPE100/lab7/lab7.srcs/sources_1/new/StateMachine.v:23]
+INFO: [Synth 8-638] synthesizing module 'counterUD16L' [C:/Users/ariky/Documents/CMPE100/lab7/lab7.srcs/sources_1/imports/new/counterUD16L.v:23]
+INFO: [Synth 8-638] synthesizing module 'countUD4L' [C:/Users/ariky/Documents/CMPE100/lab7/lab7.srcs/sources_1/imports/new/countUD4L.v:23]
+INFO: [Synth 8-638] synthesizing module 'FDRE__parameterized6' [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:3964]
+	Parameter INIT bound to: 1'b0 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_D_INVERTED bound to: 1'b0 
+	Parameter IS_R_INVERTED bound to: 1'b0 
+INFO: [Synth 8-256] done synthesizing module 'FDRE__parameterized6' (18#1) [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:3964]
+INFO: [Synth 8-638] synthesizing module 'FDRE__parameterized7' [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:3964]
+	Parameter INIT bound to: 1'b0 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_D_INVERTED bound to: 1'b0 
+	Parameter IS_R_INVERTED bound to: 1'b0 
+INFO: [Synth 8-256] done synthesizing module 'FDRE__parameterized7' (18#1) [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:3964]
+INFO: [Synth 8-638] synthesizing module 'FDRE__parameterized8' [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:3964]
+	Parameter INIT bound to: 1'b0 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_D_INVERTED bound to: 1'b0 
+	Parameter IS_R_INVERTED bound to: 1'b0 
+INFO: [Synth 8-256] done synthesizing module 'FDRE__parameterized8' (18#1) [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:3964]
+INFO: [Synth 8-638] synthesizing module 'FDRE__parameterized9' [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:3964]
+	Parameter INIT bound to: 1'b0 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_D_INVERTED bound to: 1'b0 
+	Parameter IS_R_INVERTED bound to: 1'b0 
+INFO: [Synth 8-256] done synthesizing module 'FDRE__parameterized9' (18#1) [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:3964]
+INFO: [Synth 8-256] done synthesizing module 'countUD4L' (19#1) [C:/Users/ariky/Documents/CMPE100/lab7/lab7.srcs/sources_1/imports/new/countUD4L.v:23]
+INFO: [Synth 8-256] done synthesizing module 'counterUD16L' (20#1) [C:/Users/ariky/Documents/CMPE100/lab7/lab7.srcs/sources_1/imports/new/counterUD16L.v:23]
+WARNING: [Synth 8-350] instance 'ColumnCount' of module 'counterUD16L' requires 8 connections, but only 6 given [C:/Users/ariky/Documents/CMPE100/lab7/lab7.srcs/sources_1/new/VGAcontrol.v:67]
+WARNING: [Synth 8-350] instance 'RowCount' of module 'counterUD16L' requires 8 connections, but only 6 given [C:/Users/ariky/Documents/CMPE100/lab7/lab7.srcs/sources_1/new/VGAcontrol.v:74]
+INFO: [Synth 8-638] synthesizing module 'Every8Frame' [C:/Users/ariky/Documents/CMPE100/lab7/lab7.srcs/sources_1/new/Every8Frame.v:23]
+INFO: [Synth 8-638] synthesizing module 'FDRE__parameterized10' [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:3964]
+	Parameter INIT bound to: 1'b0 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_D_INVERTED bound to: 1'b0 
+	Parameter IS_R_INVERTED bound to: 1'b0 
+INFO: [Synth 8-256] done synthesizing module 'FDRE__parameterized10' (20#1) [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:3964]
+INFO: [Synth 8-638] synthesizing module 'FDRE__parameterized11' [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:3964]
+	Parameter INIT bound to: 1'b0 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_D_INVERTED bound to: 1'b0 
+	Parameter IS_R_INVERTED bound to: 1'b0 
+INFO: [Synth 8-256] done synthesizing module 'FDRE__parameterized11' (20#1) [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:3964]
+INFO: [Synth 8-638] synthesizing module 'FDRE__parameterized12' [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:3964]
+	Parameter INIT bound to: 1'b0 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_D_INVERTED bound to: 1'b0 
+	Parameter IS_R_INVERTED bound to: 1'b0 
+INFO: [Synth 8-256] done synthesizing module 'FDRE__parameterized12' (20#1) [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:3964]
+INFO: [Synth 8-638] synthesizing module 'FDRE__parameterized13' [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:3964]
+	Parameter INIT bound to: 1'b0 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_D_INVERTED bound to: 1'b0 
+	Parameter IS_R_INVERTED bound to: 1'b0 
+INFO: [Synth 8-256] done synthesizing module 'FDRE__parameterized13' (20#1) [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:3964]
+INFO: [Synth 8-256] done synthesizing module 'Every8Frame' (21#1) [C:/Users/ariky/Documents/CMPE100/lab7/lab7.srcs/sources_1/new/Every8Frame.v:23]
+INFO: [Synth 8-638] synthesizing module 'TimeCounter' [C:/Users/ariky/Documents/CMPE100/lab7/lab7.srcs/sources_1/imports/new/TimeCounter.v:23]
+INFO: [Synth 8-638] synthesizing module 'FDRE__parameterized14' [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:3964]
+	Parameter INIT bound to: 1'b0 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_D_INVERTED bound to: 1'b0 
+	Parameter IS_R_INVERTED bound to: 1'b0 
+INFO: [Synth 8-256] done synthesizing module 'FDRE__parameterized14' (21#1) [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:3964]
+INFO: [Synth 8-638] synthesizing module 'FDRE__parameterized15' [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:3964]
+	Parameter INIT bound to: 1'b0 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_D_INVERTED bound to: 1'b0 
+	Parameter IS_R_INVERTED bound to: 1'b0 
+INFO: [Synth 8-256] done synthesizing module 'FDRE__parameterized15' (21#1) [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:3964]
+INFO: [Synth 8-638] synthesizing module 'FDRE__parameterized16' [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:3964]
+	Parameter INIT bound to: 1'b0 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_D_INVERTED bound to: 1'b0 
+	Parameter IS_R_INVERTED bound to: 1'b0 
+INFO: [Synth 8-256] done synthesizing module 'FDRE__parameterized16' (21#1) [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:3964]
+INFO: [Synth 8-638] synthesizing module 'FDRE__parameterized17' [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:3964]
+	Parameter INIT bound to: 1'b0 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_D_INVERTED bound to: 1'b0 
+	Parameter IS_R_INVERTED bound to: 1'b0 
+INFO: [Synth 8-256] done synthesizing module 'FDRE__parameterized17' (21#1) [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:3964]
+INFO: [Synth 8-638] synthesizing module 'FDRE__parameterized18' [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:3964]
+	Parameter INIT bound to: 1'b0 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_D_INVERTED bound to: 1'b0 
+	Parameter IS_R_INVERTED bound to: 1'b0 
+INFO: [Synth 8-256] done synthesizing module 'FDRE__parameterized18' (21#1) [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:3964]
+INFO: [Synth 8-638] synthesizing module 'FDRE__parameterized19' [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:3964]
+	Parameter INIT bound to: 1'b0 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_D_INVERTED bound to: 1'b0 
+	Parameter IS_R_INVERTED bound to: 1'b0 
+INFO: [Synth 8-256] done synthesizing module 'FDRE__parameterized19' (21#1) [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:3964]
+INFO: [Synth 8-638] synthesizing module 'FDRE__parameterized20' [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:3964]
+	Parameter INIT bound to: 1'b0 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_D_INVERTED bound to: 1'b0 
+	Parameter IS_R_INVERTED bound to: 1'b0 
+INFO: [Synth 8-256] done synthesizing module 'FDRE__parameterized20' (21#1) [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:3964]
+INFO: [Synth 8-638] synthesizing module 'FDRE__parameterized21' [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:3964]
+	Parameter INIT bound to: 1'b0 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_D_INVERTED bound to: 1'b0 
+	Parameter IS_R_INVERTED bound to: 1'b0 
+INFO: [Synth 8-256] done synthesizing module 'FDRE__parameterized21' (21#1) [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:3964]
+INFO: [Synth 8-638] synthesizing module 'FDRE__parameterized22' [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:3964]
+	Parameter INIT bound to: 1'b0 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_D_INVERTED bound to: 1'b0 
+	Parameter IS_R_INVERTED bound to: 1'b0 
+INFO: [Synth 8-256] done synthesizing module 'FDRE__parameterized22' (21#1) [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:3964]
+INFO: [Synth 8-638] synthesizing module 'FDRE__parameterized23' [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:3964]
+	Parameter INIT bound to: 1'b0 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_D_INVERTED bound to: 1'b0 
+	Parameter IS_R_INVERTED bound to: 1'b0 
+INFO: [Synth 8-256] done synthesizing module 'FDRE__parameterized23' (21#1) [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:3964]
+INFO: [Synth 8-638] synthesizing module 'FDRE__parameterized24' [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:3964]
+	Parameter INIT bound to: 1'b0 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_D_INVERTED bound to: 1'b0 
+	Parameter IS_R_INVERTED bound to: 1'b0 
+INFO: [Synth 8-256] done synthesizing module 'FDRE__parameterized24' (21#1) [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:3964]
+INFO: [Synth 8-638] synthesizing module 'FDRE__parameterized25' [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:3964]
+	Parameter INIT bound to: 1'b0 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_D_INVERTED bound to: 1'b0 
+	Parameter IS_R_INVERTED bound to: 1'b0 
+INFO: [Synth 8-256] done synthesizing module 'FDRE__parameterized25' (21#1) [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:3964]
+INFO: [Synth 8-638] synthesizing module 'FDRE__parameterized26' [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:3964]
+	Parameter INIT bound to: 1'b0 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_D_INVERTED bound to: 1'b0 
+	Parameter IS_R_INVERTED bound to: 1'b0 
+INFO: [Synth 8-256] done synthesizing module 'FDRE__parameterized26' (21#1) [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:3964]
+INFO: [Synth 8-638] synthesizing module 'FDRE__parameterized27' [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:3964]
+	Parameter INIT bound to: 1'b0 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_D_INVERTED bound to: 1'b0 
+	Parameter IS_R_INVERTED bound to: 1'b0 
+INFO: [Synth 8-256] done synthesizing module 'FDRE__parameterized27' (21#1) [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:3964]
+INFO: [Synth 8-638] synthesizing module 'FDRE__parameterized28' [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:3964]
+	Parameter INIT bound to: 1'b0 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_D_INVERTED bound to: 1'b0 
+	Parameter IS_R_INVERTED bound to: 1'b0 
+INFO: [Synth 8-256] done synthesizing module 'FDRE__parameterized28' (21#1) [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:3964]
+INFO: [Synth 8-638] synthesizing module 'FDRE__parameterized29' [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:3964]
+	Parameter INIT bound to: 1'b0 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_D_INVERTED bound to: 1'b0 
+	Parameter IS_R_INVERTED bound to: 1'b0 
+INFO: [Synth 8-256] done synthesizing module 'FDRE__parameterized29' (21#1) [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:3964]
+INFO: [Synth 8-256] done synthesizing module 'TimeCounter' (22#1) [C:/Users/ariky/Documents/CMPE100/lab7/lab7.srcs/sources_1/imports/new/TimeCounter.v:23]
+INFO: [Synth 8-638] synthesizing module 'Gate_Machine' [C:/Users/ariky/Documents/CMPE100/lab7/lab7.srcs/sources_1/new/Gate_Machine.v:23]
+INFO: [Synth 8-638] synthesizing module 'chooseRND' [C:/Users/ariky/Documents/CMPE100/lab7/lab7.srcs/sources_1/new/chooseRND.v:23]
+INFO: [Synth 8-638] synthesizing module 'FDRE__parameterized30' [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:3964]
+	Parameter INIT bound to: 1'b0 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_D_INVERTED bound to: 1'b0 
+	Parameter IS_R_INVERTED bound to: 1'b0 
+INFO: [Synth 8-256] done synthesizing module 'FDRE__parameterized30' (22#1) [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:3964]
+INFO: [Synth 8-638] synthesizing module 'FDRE__parameterized31' [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:3964]
+	Parameter INIT bound to: 1'b0 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_D_INVERTED bound to: 1'b0 
+	Parameter IS_R_INVERTED bound to: 1'b0 
+INFO: [Synth 8-256] done synthesizing module 'FDRE__parameterized31' (22#1) [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:3964]
+INFO: [Synth 8-638] synthesizing module 'FDRE__parameterized32' [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:3964]
+	Parameter INIT bound to: 1'b0 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_D_INVERTED bound to: 1'b0 
+	Parameter IS_R_INVERTED bound to: 1'b0 
+INFO: [Synth 8-256] done synthesizing module 'FDRE__parameterized32' (22#1) [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:3964]
+INFO: [Synth 8-638] synthesizing module 'FDRE__parameterized33' [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:3964]
+	Parameter INIT bound to: 1'b0 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_D_INVERTED bound to: 1'b0 
+	Parameter IS_R_INVERTED bound to: 1'b0 
+INFO: [Synth 8-256] done synthesizing module 'FDRE__parameterized33' (22#1) [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:3964]
+INFO: [Synth 8-638] synthesizing module 'FDRE__parameterized34' [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:3964]
+	Parameter INIT bound to: 1'b0 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_D_INVERTED bound to: 1'b0 
+	Parameter IS_R_INVERTED bound to: 1'b0 
+INFO: [Synth 8-256] done synthesizing module 'FDRE__parameterized34' (22#1) [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:3964]
+INFO: [Synth 8-638] synthesizing module 'FDRE__parameterized35' [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:3964]
+	Parameter INIT bound to: 1'b0 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_D_INVERTED bound to: 1'b0 
+	Parameter IS_R_INVERTED bound to: 1'b0 
+INFO: [Synth 8-256] done synthesizing module 'FDRE__parameterized35' (22#1) [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:3964]
+INFO: [Synth 8-638] synthesizing module 'FDRE__parameterized36' [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:3964]
+	Parameter INIT bound to: 1'b0 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_D_INVERTED bound to: 1'b0 
+	Parameter IS_R_INVERTED bound to: 1'b0 
+INFO: [Synth 8-256] done synthesizing module 'FDRE__parameterized36' (22#1) [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:3964]
+INFO: [Synth 8-638] synthesizing module 'FDRE__parameterized37' [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:3964]
+	Parameter INIT bound to: 1'b0 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_D_INVERTED bound to: 1'b0 
+	Parameter IS_R_INVERTED bound to: 1'b0 
+INFO: [Synth 8-256] done synthesizing module 'FDRE__parameterized37' (22#1) [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:3964]
+INFO: [Synth 8-638] synthesizing module 'FDRE__parameterized38' [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:3964]
+	Parameter INIT bound to: 1'b0 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_D_INVERTED bound to: 1'b0 
+	Parameter IS_R_INVERTED bound to: 1'b0 
+INFO: [Synth 8-256] done synthesizing module 'FDRE__parameterized38' (22#1) [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:3964]
+INFO: [Synth 8-638] synthesizing module 'FDRE__parameterized39' [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:3964]
+	Parameter INIT bound to: 1'b0 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_D_INVERTED bound to: 1'b0 
+	Parameter IS_R_INVERTED bound to: 1'b0 
+INFO: [Synth 8-256] done synthesizing module 'FDRE__parameterized39' (22#1) [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:3964]
+INFO: [Synth 8-638] synthesizing module 'FDRE__parameterized40' [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:3964]
+	Parameter INIT bound to: 1'b0 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_D_INVERTED bound to: 1'b0 
+	Parameter IS_R_INVERTED bound to: 1'b0 
+INFO: [Synth 8-256] done synthesizing module 'FDRE__parameterized40' (22#1) [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:3964]
+INFO: [Synth 8-638] synthesizing module 'FDRE__parameterized41' [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:3964]
+	Parameter INIT bound to: 1'b0 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_D_INVERTED bound to: 1'b0 
+	Parameter IS_R_INVERTED bound to: 1'b0 
+INFO: [Synth 8-256] done synthesizing module 'FDRE__parameterized41' (22#1) [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:3964]
+INFO: [Synth 8-638] synthesizing module 'FDRE__parameterized42' [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:3964]
+	Parameter INIT bound to: 1'b0 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_D_INVERTED bound to: 1'b0 
+	Parameter IS_R_INVERTED bound to: 1'b0 
+INFO: [Synth 8-256] done synthesizing module 'FDRE__parameterized42' (22#1) [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:3964]
+INFO: [Synth 8-638] synthesizing module 'FDRE__parameterized43' [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:3964]
+	Parameter INIT bound to: 1'b0 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_D_INVERTED bound to: 1'b0 
+	Parameter IS_R_INVERTED bound to: 1'b0 
+INFO: [Synth 8-256] done synthesizing module 'FDRE__parameterized43' (22#1) [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:3964]
+INFO: [Synth 8-638] synthesizing module 'FDRE__parameterized44' [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:3964]
+	Parameter INIT bound to: 1'b0 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_D_INVERTED bound to: 1'b0 
+	Parameter IS_R_INVERTED bound to: 1'b0 
+INFO: [Synth 8-256] done synthesizing module 'FDRE__parameterized44' (22#1) [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:3964]
+INFO: [Synth 8-638] synthesizing module 'FDRE__parameterized45' [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:3964]
+	Parameter INIT bound to: 1'b0 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_D_INVERTED bound to: 1'b0 
+	Parameter IS_R_INVERTED bound to: 1'b0 
+INFO: [Synth 8-256] done synthesizing module 'FDRE__parameterized45' (22#1) [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:3964]
+INFO: [Synth 8-638] synthesizing module 'FDRE__parameterized46' [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:3964]
+	Parameter INIT bound to: 1'b0 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_D_INVERTED bound to: 1'b0 
+	Parameter IS_R_INVERTED bound to: 1'b0 
+INFO: [Synth 8-256] done synthesizing module 'FDRE__parameterized46' (22#1) [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:3964]
+INFO: [Synth 8-256] done synthesizing module 'chooseRND' (23#1) [C:/Users/ariky/Documents/CMPE100/lab7/lab7.srcs/sources_1/new/chooseRND.v:23]
+INFO: [Synth 8-638] synthesizing module 'LFSR' [C:/Users/ariky/Documents/CMPE100/lab7/lab7.srcs/sources_1/imports/new/LFSR.v:23]
+INFO: [Synth 8-638] synthesizing module 'FDRE__parameterized47' [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:3964]
+	Parameter INIT bound to: 1'b0 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_D_INVERTED bound to: 1'b0 
+	Parameter IS_R_INVERTED bound to: 1'b0 
+INFO: [Synth 8-256] done synthesizing module 'FDRE__parameterized47' (23#1) [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:3964]
+INFO: [Synth 8-638] synthesizing module 'FDRE__parameterized48' [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:3964]
+	Parameter INIT bound to: 1'b0 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_D_INVERTED bound to: 1'b0 
+	Parameter IS_R_INVERTED bound to: 1'b0 
+INFO: [Synth 8-256] done synthesizing module 'FDRE__parameterized48' (23#1) [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:3964]
+INFO: [Synth 8-638] synthesizing module 'FDRE__parameterized49' [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:3964]
+	Parameter INIT bound to: 1'b0 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_D_INVERTED bound to: 1'b0 
+	Parameter IS_R_INVERTED bound to: 1'b0 
+INFO: [Synth 8-256] done synthesizing module 'FDRE__parameterized49' (23#1) [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:3964]
+INFO: [Synth 8-638] synthesizing module 'FDRE__parameterized50' [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:3964]
+	Parameter INIT bound to: 1'b0 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_D_INVERTED bound to: 1'b0 
+	Parameter IS_R_INVERTED bound to: 1'b0 
+INFO: [Synth 8-256] done synthesizing module 'FDRE__parameterized50' (23#1) [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:3964]
+INFO: [Synth 8-638] synthesizing module 'FDRE__parameterized51' [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:3964]
+	Parameter INIT bound to: 1'b0 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_D_INVERTED bound to: 1'b0 
+	Parameter IS_R_INVERTED bound to: 1'b0 
+INFO: [Synth 8-256] done synthesizing module 'FDRE__parameterized51' (23#1) [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:3964]
+INFO: [Synth 8-638] synthesizing module 'FDRE__parameterized52' [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:3964]
+	Parameter INIT bound to: 1'b0 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_D_INVERTED bound to: 1'b0 
+	Parameter IS_R_INVERTED bound to: 1'b0 
+INFO: [Synth 8-256] done synthesizing module 'FDRE__parameterized52' (23#1) [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:3964]
+INFO: [Synth 8-638] synthesizing module 'FDRE__parameterized53' [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:3964]
+	Parameter INIT bound to: 1'b0 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_D_INVERTED bound to: 1'b0 
+	Parameter IS_R_INVERTED bound to: 1'b0 
+INFO: [Synth 8-256] done synthesizing module 'FDRE__parameterized53' (23#1) [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:3964]
+INFO: [Synth 8-256] done synthesizing module 'LFSR' (24#1) [C:/Users/ariky/Documents/CMPE100/lab7/lab7.srcs/sources_1/imports/new/LFSR.v:23]
+WARNING: [Synth 8-689] width (16) of port connection 'D' does not match port width (8) of module 'LFSR' [C:/Users/ariky/Documents/CMPE100/lab7/lab7.srcs/sources_1/new/Gate_Machine.v:65]
+INFO: [Synth 8-638] synthesizing module 'm8x16' [C:/Users/ariky/Documents/CMPE100/lab7/lab7.srcs/sources_1/new/m8x16.v:23]
+INFO: [Synth 8-256] done synthesizing module 'm8x16' (25#1) [C:/Users/ariky/Documents/CMPE100/lab7/lab7.srcs/sources_1/new/m8x16.v:23]
+INFO: [Synth 8-638] synthesizing module 'FDRE__parameterized54' [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:3964]
+	Parameter INIT bound to: 1'b0 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_D_INVERTED bound to: 1'b0 
+	Parameter IS_R_INVERTED bound to: 1'b0 
+INFO: [Synth 8-256] done synthesizing module 'FDRE__parameterized54' (25#1) [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:3964]
+INFO: [Synth 8-638] synthesizing module 'FDRE__parameterized55' [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:3964]
+	Parameter INIT bound to: 1'b0 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_D_INVERTED bound to: 1'b0 
+	Parameter IS_R_INVERTED bound to: 1'b0 
+INFO: [Synth 8-256] done synthesizing module 'FDRE__parameterized55' (25#1) [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:3964]
+INFO: [Synth 8-638] synthesizing module 'FDRE__parameterized56' [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:3964]
+	Parameter INIT bound to: 1'b0 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_D_INVERTED bound to: 1'b0 
+	Parameter IS_R_INVERTED bound to: 1'b0 
+INFO: [Synth 8-256] done synthesizing module 'FDRE__parameterized56' (25#1) [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:3964]
+INFO: [Synth 8-638] synthesizing module 'FDRE__parameterized57' [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:3964]
+	Parameter INIT bound to: 1'b0 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_D_INVERTED bound to: 1'b0 
+	Parameter IS_R_INVERTED bound to: 1'b0 
+INFO: [Synth 8-256] done synthesizing module 'FDRE__parameterized57' (25#1) [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:3964]
+INFO: [Synth 8-638] synthesizing module 'FDRE__parameterized58' [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:3964]
+	Parameter INIT bound to: 1'b0 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_D_INVERTED bound to: 1'b0 
+	Parameter IS_R_INVERTED bound to: 1'b0 
+INFO: [Synth 8-256] done synthesizing module 'FDRE__parameterized58' (25#1) [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:3964]
+INFO: [Synth 8-638] synthesizing module 'FDRE__parameterized59' [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:3964]
+	Parameter INIT bound to: 1'b0 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_D_INVERTED bound to: 1'b0 
+	Parameter IS_R_INVERTED bound to: 1'b0 
+INFO: [Synth 8-256] done synthesizing module 'FDRE__parameterized59' (25#1) [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:3964]
+INFO: [Synth 8-638] synthesizing module 'FDRE__parameterized60' [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:3964]
+	Parameter INIT bound to: 1'b0 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_D_INVERTED bound to: 1'b0 
+	Parameter IS_R_INVERTED bound to: 1'b0 
+INFO: [Synth 8-256] done synthesizing module 'FDRE__parameterized60' (25#1) [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:3964]
+INFO: [Synth 8-638] synthesizing module 'FDRE__parameterized61' [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:3964]
+	Parameter INIT bound to: 1'b0 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_D_INVERTED bound to: 1'b0 
+	Parameter IS_R_INVERTED bound to: 1'b0 
+INFO: [Synth 8-256] done synthesizing module 'FDRE__parameterized61' (25#1) [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:3964]
+INFO: [Synth 8-638] synthesizing module 'FDRE__parameterized62' [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:3964]
+	Parameter INIT bound to: 1'b0 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_D_INVERTED bound to: 1'b0 
+	Parameter IS_R_INVERTED bound to: 1'b0 
+INFO: [Synth 8-256] done synthesizing module 'FDRE__parameterized62' (25#1) [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:3964]
+INFO: [Synth 8-638] synthesizing module 'FDRE__parameterized63' [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:3964]
+	Parameter INIT bound to: 1'b0 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_D_INVERTED bound to: 1'b0 
+	Parameter IS_R_INVERTED bound to: 1'b0 
+INFO: [Synth 8-256] done synthesizing module 'FDRE__parameterized63' (25#1) [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:3964]
+INFO: [Synth 8-638] synthesizing module 'FDRE__parameterized64' [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:3964]
+	Parameter INIT bound to: 1'b0 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_D_INVERTED bound to: 1'b0 
+	Parameter IS_R_INVERTED bound to: 1'b0 
+INFO: [Synth 8-256] done synthesizing module 'FDRE__parameterized64' (25#1) [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:3964]
+INFO: [Synth 8-638] synthesizing module 'FDRE__parameterized65' [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:3964]
+	Parameter INIT bound to: 1'b0 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_D_INVERTED bound to: 1'b0 
+	Parameter IS_R_INVERTED bound to: 1'b0 
+INFO: [Synth 8-256] done synthesizing module 'FDRE__parameterized65' (25#1) [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:3964]
+INFO: [Synth 8-638] synthesizing module 'FDRE__parameterized66' [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:3964]
+	Parameter INIT bound to: 1'b0 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_D_INVERTED bound to: 1'b0 
+	Parameter IS_R_INVERTED bound to: 1'b0 
+INFO: [Synth 8-256] done synthesizing module 'FDRE__parameterized66' (25#1) [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:3964]
+INFO: [Synth 8-638] synthesizing module 'FDRE__parameterized67' [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:3964]
+	Parameter INIT bound to: 1'b0 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_D_INVERTED bound to: 1'b0 
+	Parameter IS_R_INVERTED bound to: 1'b0 
+INFO: [Synth 8-256] done synthesizing module 'FDRE__parameterized67' (25#1) [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:3964]
+INFO: [Synth 8-638] synthesizing module 'FDRE__parameterized68' [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:3964]
+	Parameter INIT bound to: 1'b0 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_D_INVERTED bound to: 1'b0 
+	Parameter IS_R_INVERTED bound to: 1'b0 
+INFO: [Synth 8-256] done synthesizing module 'FDRE__parameterized68' (25#1) [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:3964]
+INFO: [Synth 8-638] synthesizing module 'FDRE__parameterized69' [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:3964]
+	Parameter INIT bound to: 1'b0 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_D_INVERTED bound to: 1'b0 
+	Parameter IS_R_INVERTED bound to: 1'b0 
+INFO: [Synth 8-256] done synthesizing module 'FDRE__parameterized69' (25#1) [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:3964]
+INFO: [Synth 8-638] synthesizing module 'FDRE__parameterized70' [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:3964]
+	Parameter INIT bound to: 1'b0 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_D_INVERTED bound to: 1'b0 
+	Parameter IS_R_INVERTED bound to: 1'b0 
+INFO: [Synth 8-256] done synthesizing module 'FDRE__parameterized70' (25#1) [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:3964]
+INFO: [Synth 8-638] synthesizing module 'FDRE__parameterized71' [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:3964]
+	Parameter INIT bound to: 1'b0 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_D_INVERTED bound to: 1'b0 
+	Parameter IS_R_INVERTED bound to: 1'b0 
+INFO: [Synth 8-256] done synthesizing module 'FDRE__parameterized71' (25#1) [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:3964]
+WARNING: [Synth 8-350] instance 'choosePos' of module 'chooseRND' requires 7 connections, but only 6 given [C:/Users/ariky/Documents/CMPE100/lab7/lab7.srcs/sources_1/new/Gate_Machine.v:99]
+INFO: [Synth 8-638] synthesizing module 'FDRE__parameterized72' [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:3964]
+	Parameter INIT bound to: 1'b0 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_D_INVERTED bound to: 1'b0 
+	Parameter IS_R_INVERTED bound to: 1'b0 
+INFO: [Synth 8-256] done synthesizing module 'FDRE__parameterized72' (25#1) [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:3964]
+INFO: [Synth 8-638] synthesizing module 'FDRE__parameterized73' [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:3964]
+	Parameter INIT bound to: 1'b0 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_D_INVERTED bound to: 1'b0 
+	Parameter IS_R_INVERTED bound to: 1'b0 
+INFO: [Synth 8-256] done synthesizing module 'FDRE__parameterized73' (25#1) [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:3964]
+INFO: [Synth 8-638] synthesizing module 'FDRE__parameterized74' [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:3964]
+	Parameter INIT bound to: 1'b0 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_D_INVERTED bound to: 1'b0 
+	Parameter IS_R_INVERTED bound to: 1'b0 
+INFO: [Synth 8-256] done synthesizing module 'FDRE__parameterized74' (25#1) [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:3964]
+INFO: [Synth 8-256] done synthesizing module 'Gate_Machine' (26#1) [C:/Users/ariky/Documents/CMPE100/lab7/lab7.srcs/sources_1/new/Gate_Machine.v:23]
+WARNING: [Synth 8-350] instance 'gate0' of module 'Gate_Machine' requires 26 connections, but only 25 given [C:/Users/ariky/Documents/CMPE100/lab7/lab7.srcs/sources_1/new/VGAcontrol.v:116]
+WARNING: [Synth 8-350] instance 'gate1' of module 'Gate_Machine' requires 26 connections, but only 25 given [C:/Users/ariky/Documents/CMPE100/lab7/lab7.srcs/sources_1/new/VGAcontrol.v:126]
+WARNING: [Synth 8-350] instance 'gate2' of module 'Gate_Machine' requires 26 connections, but only 25 given [C:/Users/ariky/Documents/CMPE100/lab7/lab7.srcs/sources_1/new/VGAcontrol.v:136]
+WARNING: [Synth 8-350] instance 'gate3' of module 'Gate_Machine' requires 26 connections, but only 25 given [C:/Users/ariky/Documents/CMPE100/lab7/lab7.srcs/sources_1/new/VGAcontrol.v:146]
+WARNING: [Synth 8-350] instance 'gate4' of module 'Gate_Machine' requires 26 connections, but only 25 given [C:/Users/ariky/Documents/CMPE100/lab7/lab7.srcs/sources_1/new/VGAcontrol.v:156]
+WARNING: [Synth 8-350] instance 'gate5' of module 'Gate_Machine' requires 26 connections, but only 25 given [C:/Users/ariky/Documents/CMPE100/lab7/lab7.srcs/sources_1/new/VGAcontrol.v:166]
+WARNING: [Synth 8-350] instance 'gate6' of module 'Gate_Machine' requires 26 connections, but only 25 given [C:/Users/ariky/Documents/CMPE100/lab7/lab7.srcs/sources_1/new/VGAcontrol.v:176]
+WARNING: [Synth 8-350] instance 'gate7' of module 'Gate_Machine' requires 26 connections, but only 25 given [C:/Users/ariky/Documents/CMPE100/lab7/lab7.srcs/sources_1/new/VGAcontrol.v:186]
+INFO: [Synth 8-638] synthesizing module 'TurkeyCounter' [C:/Users/ariky/Documents/CMPE100/lab7/lab7.srcs/sources_1/imports/new/TurkeyCounter.v:23]
+INFO: [Synth 8-638] synthesizing module 'FDRE__parameterized75' [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:3964]
+	Parameter INIT bound to: 1'b0 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_D_INVERTED bound to: 1'b0 
+	Parameter IS_R_INVERTED bound to: 1'b0 
+INFO: [Synth 8-256] done synthesizing module 'FDRE__parameterized75' (26#1) [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:3964]
+INFO: [Synth 8-638] synthesizing module 'FDRE__parameterized76' [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:3964]
+	Parameter INIT bound to: 1'b0 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_D_INVERTED bound to: 1'b0 
+	Parameter IS_R_INVERTED bound to: 1'b0 
+INFO: [Synth 8-256] done synthesizing module 'FDRE__parameterized76' (26#1) [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:3964]
+INFO: [Synth 8-638] synthesizing module 'FDRE__parameterized77' [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:3964]
+	Parameter INIT bound to: 1'b0 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_D_INVERTED bound to: 1'b0 
+	Parameter IS_R_INVERTED bound to: 1'b0 
+INFO: [Synth 8-256] done synthesizing module 'FDRE__parameterized77' (26#1) [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:3964]
+INFO: [Synth 8-638] synthesizing module 'FDRE__parameterized78' [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:3964]
+	Parameter INIT bound to: 1'b0 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_D_INVERTED bound to: 1'b0 
+	Parameter IS_R_INVERTED bound to: 1'b0 
+INFO: [Synth 8-256] done synthesizing module 'FDRE__parameterized78' (26#1) [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:3964]
+INFO: [Synth 8-638] synthesizing module 'FDRE__parameterized79' [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:3964]
+	Parameter INIT bound to: 1'b0 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_D_INVERTED bound to: 1'b0 
+	Parameter IS_R_INVERTED bound to: 1'b0 
+INFO: [Synth 8-256] done synthesizing module 'FDRE__parameterized79' (26#1) [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:3964]
+INFO: [Synth 8-638] synthesizing module 'FDRE__parameterized80' [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:3964]
+	Parameter INIT bound to: 1'b0 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_D_INVERTED bound to: 1'b0 
+	Parameter IS_R_INVERTED bound to: 1'b0 
+INFO: [Synth 8-256] done synthesizing module 'FDRE__parameterized80' (26#1) [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:3964]
+INFO: [Synth 8-638] synthesizing module 'FDRE__parameterized81' [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:3964]
+	Parameter INIT bound to: 1'b0 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_D_INVERTED bound to: 1'b0 
+	Parameter IS_R_INVERTED bound to: 1'b0 
+INFO: [Synth 8-256] done synthesizing module 'FDRE__parameterized81' (26#1) [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:3964]
+INFO: [Synth 8-638] synthesizing module 'FDRE__parameterized82' [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:3964]
+	Parameter INIT bound to: 1'b0 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_D_INVERTED bound to: 1'b0 
+	Parameter IS_R_INVERTED bound to: 1'b0 
+INFO: [Synth 8-256] done synthesizing module 'FDRE__parameterized82' (26#1) [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:3964]
+INFO: [Synth 8-256] done synthesizing module 'TurkeyCounter' (27#1) [C:/Users/ariky/Documents/CMPE100/lab7/lab7.srcs/sources_1/imports/new/TurkeyCounter.v:23]
+INFO: [Synth 8-638] synthesizing module 'AddOne' [C:/Users/ariky/Documents/CMPE100/lab7/lab7.srcs/sources_1/imports/sources_1/new/AddOne.v:23]
+INFO: [Synth 8-638] synthesizing module 'FullAdder' [C:/Users/ariky/Documents/CMPE100/lab7/lab7.srcs/sources_1/imports/new/Full Adder.v:23]
+INFO: [Synth 8-256] done synthesizing module 'FullAdder' (28#1) [C:/Users/ariky/Documents/CMPE100/lab7/lab7.srcs/sources_1/imports/new/Full Adder.v:23]
+INFO: [Synth 8-256] done synthesizing module 'AddOne' (29#1) [C:/Users/ariky/Documents/CMPE100/lab7/lab7.srcs/sources_1/imports/sources_1/new/AddOne.v:23]
+INFO: [Synth 8-638] synthesizing module 'RingCounter' [C:/Users/ariky/Documents/CMPE100/lab7/lab7.srcs/sources_1/imports/sources_1/imports/new/RingCounter.v:23]
+INFO: [Synth 8-638] synthesizing module 'FDRE__parameterized83' [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:3964]
+	Parameter INIT bound to: 1'b0 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_D_INVERTED bound to: 1'b0 
+	Parameter IS_R_INVERTED bound to: 1'b0 
+INFO: [Synth 8-256] done synthesizing module 'FDRE__parameterized83' (29#1) [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:3964]
+INFO: [Synth 8-638] synthesizing module 'FDRE__parameterized84' [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:3964]
+	Parameter INIT bound to: 1'b0 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_D_INVERTED bound to: 1'b0 
+	Parameter IS_R_INVERTED bound to: 1'b0 
+INFO: [Synth 8-256] done synthesizing module 'FDRE__parameterized84' (29#1) [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:3964]
+INFO: [Synth 8-638] synthesizing module 'FDRE__parameterized85' [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:3964]
+	Parameter INIT bound to: 1'b0 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_D_INVERTED bound to: 1'b0 
+	Parameter IS_R_INVERTED bound to: 1'b0 
+INFO: [Synth 8-256] done synthesizing module 'FDRE__parameterized85' (29#1) [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:3964]
+INFO: [Synth 8-256] done synthesizing module 'RingCounter' (30#1) [C:/Users/ariky/Documents/CMPE100/lab7/lab7.srcs/sources_1/imports/sources_1/imports/new/RingCounter.v:23]
+INFO: [Synth 8-638] synthesizing module 'm2_1x8' [C:/Users/ariky/Documents/CMPE100/lab7/lab7.srcs/sources_1/imports/new/m2_1x8.v:23]
+INFO: [Synth 8-256] done synthesizing module 'm2_1x8' (31#1) [C:/Users/ariky/Documents/CMPE100/lab7/lab7.srcs/sources_1/imports/new/m2_1x8.v:23]
+INFO: [Synth 8-638] synthesizing module 'm2_1x1' [C:/Users/ariky/Documents/CMPE100/lab7/lab7.srcs/sources_1/imports/sources_1/new/m2_1x1.v:23]
+INFO: [Synth 8-256] done synthesizing module 'm2_1x1' (32#1) [C:/Users/ariky/Documents/CMPE100/lab7/lab7.srcs/sources_1/imports/sources_1/new/m2_1x1.v:23]
+INFO: [Synth 8-638] synthesizing module 'Selector' [C:/Users/ariky/Documents/CMPE100/lab7/lab7.srcs/sources_1/imports/sources_1/imports/new/Selector.v:23]
+INFO: [Synth 8-256] done synthesizing module 'Selector' (33#1) [C:/Users/ariky/Documents/CMPE100/lab7/lab7.srcs/sources_1/imports/sources_1/imports/new/Selector.v:23]
+INFO: [Synth 8-638] synthesizing module 'hex7seg' [C:/Users/ariky/Documents/CMPE100/lab7/lab7.srcs/sources_1/imports/sources_1/imports/new/hex7seg.v:23]
+INFO: [Synth 8-638] synthesizing module 'm8_1e' [C:/Users/ariky/Documents/CMPE100/lab7/lab7.srcs/sources_1/imports/new/m8_1e.v:23]
+INFO: [Synth 8-256] done synthesizing module 'm8_1e' (34#1) [C:/Users/ariky/Documents/CMPE100/lab7/lab7.srcs/sources_1/imports/new/m8_1e.v:23]
+INFO: [Synth 8-256] done synthesizing module 'hex7seg' (35#1) [C:/Users/ariky/Documents/CMPE100/lab7/lab7.srcs/sources_1/imports/sources_1/imports/new/hex7seg.v:23]
+WARNING: [Synth 8-689] width (7) of port connection 'in' does not match port width (8) of module 'm2_1x8' [C:/Users/ariky/Documents/CMPE100/lab7/lab7.srcs/sources_1/new/VGAcontrol.v:238]
+WARNING: [Synth 8-689] width (7) of port connection 'in1' does not match port width (8) of module 'm2_1x8' [C:/Users/ariky/Documents/CMPE100/lab7/lab7.srcs/sources_1/new/VGAcontrol.v:238]
+WARNING: [Synth 8-689] width (7) of port connection 'o' does not match port width (8) of module 'm2_1x8' [C:/Users/ariky/Documents/CMPE100/lab7/lab7.srcs/sources_1/new/VGAcontrol.v:238]
+INFO: [Synth 8-256] done synthesizing module 'VGAcontrol' (36#1) [C:/Users/ariky/Documents/CMPE100/lab7/lab7.srcs/sources_1/new/VGAcontrol.v:23]
+WARNING: [Synth 8-3917] design VGAcontrol has port an[3] driven by constant 1
+WARNING: [Synth 8-3331] design Gate_Machine has unconnected port btnC
+WARNING: [Synth 8-3331] design Gate_Machine has unconnected port prevTop
+WARNING: [Synth 8-3331] design Gate_Machine has unconnected port newUP[15]
+WARNING: [Synth 8-3331] design Gate_Machine has unconnected port newUP[14]
+WARNING: [Synth 8-3331] design Gate_Machine has unconnected port newUP[13]
+WARNING: [Synth 8-3331] design Gate_Machine has unconnected port newUP[12]
+WARNING: [Synth 8-3331] design Gate_Machine has unconnected port newUP[11]
+WARNING: [Synth 8-3331] design Gate_Machine has unconnected port newUP[10]
+WARNING: [Synth 8-3331] design Gate_Machine has unconnected port newUP[9]
+WARNING: [Synth 8-3331] design Gate_Machine has unconnected port newUP[8]
+WARNING: [Synth 8-3331] design Gate_Machine has unconnected port newUP[7]
+WARNING: [Synth 8-3331] design Gate_Machine has unconnected port newUP[6]
+WARNING: [Synth 8-3331] design Gate_Machine has unconnected port newUP[5]
+WARNING: [Synth 8-3331] design Gate_Machine has unconnected port newUP[4]
+WARNING: [Synth 8-3331] design Gate_Machine has unconnected port newUP[3]
+WARNING: [Synth 8-3331] design Gate_Machine has unconnected port newUP[2]
+WARNING: [Synth 8-3331] design Gate_Machine has unconnected port newUP[1]
+WARNING: [Synth 8-3331] design Gate_Machine has unconnected port newUP[0]
+WARNING: [Synth 8-3331] design clkcntrl4 has unconnected port qsec
+WARNING: [Synth 8-3331] design VGAcontrol has unconnected port sw[3]
+WARNING: [Synth 8-3331] design VGAcontrol has unconnected port sw[2]
+WARNING: [Synth 8-3331] design VGAcontrol has unconnected port sw[1]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 328.973 ; gain = 119.598
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+WARNING: [Synth 8-3295] tying undriven pin choosePos:reset to constant 0 [C:/Users/ariky/Documents/CMPE100/lab7/lab7.srcs/sources_1/new/Gate_Machine.v:99]
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 328.973 ; gain = 119.598
+---------------------------------------------------------------------------------
+INFO: [Netlist 29-17] Analyzing 52 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/Users/ariky/Documents/CMPE100/lab7/lab7.srcs/constrs_1/imports/Lab2/Basys3_Master.xdc]
+Finished Parsing XDC File [C:/Users/ariky/Documents/CMPE100/lab7/lab7.srcs/constrs_1/imports/Lab2/Basys3_Master.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/ariky/Documents/CMPE100/lab7/lab7.srcs/constrs_1/imports/Lab2/Basys3_Master.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/VGAcontrol_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/VGAcontrol_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+INFO: [Timing 38-2] Deriving generated clocks
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 49 instances were transformed.
+  AND2 => LUT2: 12 instances
+  AND3 => LUT3: 6 instances
+  AND4 => LUT4: 6 instances
+  BUF => LUT1: 1 instances
+  XOR2 => LUT2: 24 instances
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.006 . Memory (MB): peak = 633.813 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:15 ; elapsed = 00:00:16 . Memory (MB): peak = 633.813 ; gain = 424.438
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a35tcpg236-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:15 ; elapsed = 00:00:16 . Memory (MB): peak = 633.813 ; gain = 424.438
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:15 ; elapsed = 00:00:16 . Memory (MB): peak = 633.813 ; gain = 424.438
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:15 ; elapsed = 00:00:17 . Memory (MB): peak = 633.813 ; gain = 424.438
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     16 Bit       Adders := 53    
+	   4 Input     16 Bit       Adders := 8     
+	   3 Input     16 Bit       Adders := 8     
++---XORs : 
+	   2 Input     16 Bit         XORs := 2     
+	   2 Input      1 Bit         XORs := 524   
+	   4 Input      1 Bit         XORs := 8     
++---Muxes : 
+	   2 Input     16 Bit        Muxes := 8     
+	   2 Input      8 Bit        Muxes := 2     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module VGAcontrol 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     16 Bit       Adders := 5     
++---XORs : 
+	   2 Input     16 Bit         XORs := 2     
+Module countUD4L 
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input      1 Bit         XORs := 4     
+Module Every8Frame 
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input      1 Bit         XORs := 4     
+Module TimeCounter 
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input      1 Bit         XORs := 16    
+Module LFSR 
+Detailed RTL Component Info : 
++---XORs : 
+	   4 Input      1 Bit         XORs := 1     
+Module Gate_Machine 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     16 Bit       Adders := 6     
+	   4 Input     16 Bit       Adders := 1     
+	   3 Input     16 Bit       Adders := 1     
++---Muxes : 
+	   2 Input     16 Bit        Muxes := 1     
+Module TurkeyCounter 
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input      1 Bit         XORs := 8     
+Module m2_1x8 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input      8 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 90 (col length:60)
+BRAMs: 100 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-3917] design VGAcontrol has port an[3] driven by constant 1
+WARNING: [Synth 8-3331] design Gate_Machine has unconnected port btnC
+WARNING: [Synth 8-3331] design Gate_Machine has unconnected port prevTop
+WARNING: [Synth 8-3331] design Gate_Machine has unconnected port newUP[15]
+WARNING: [Synth 8-3331] design Gate_Machine has unconnected port newUP[14]
+WARNING: [Synth 8-3331] design Gate_Machine has unconnected port newUP[13]
+WARNING: [Synth 8-3331] design Gate_Machine has unconnected port newUP[12]
+WARNING: [Synth 8-3331] design Gate_Machine has unconnected port newUP[11]
+WARNING: [Synth 8-3331] design Gate_Machine has unconnected port newUP[10]
+WARNING: [Synth 8-3331] design Gate_Machine has unconnected port newUP[9]
+WARNING: [Synth 8-3331] design Gate_Machine has unconnected port newUP[8]
+WARNING: [Synth 8-3331] design Gate_Machine has unconnected port newUP[7]
+WARNING: [Synth 8-3331] design Gate_Machine has unconnected port newUP[6]
+WARNING: [Synth 8-3331] design Gate_Machine has unconnected port newUP[5]
+WARNING: [Synth 8-3331] design Gate_Machine has unconnected port newUP[4]
+WARNING: [Synth 8-3331] design Gate_Machine has unconnected port newUP[3]
+WARNING: [Synth 8-3331] design Gate_Machine has unconnected port newUP[2]
+WARNING: [Synth 8-3331] design Gate_Machine has unconnected port newUP[1]
+WARNING: [Synth 8-3331] design Gate_Machine has unconnected port newUP[0]
+WARNING: [Synth 8-3331] design VGAcontrol has unconnected port sw[3]
+WARNING: [Synth 8-3331] design VGAcontrol has unconnected port sw[2]
+WARNING: [Synth 8-3331] design VGAcontrol has unconnected port sw[1]
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (Gate_Machine:/\bit[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (Gate_Machine:/\bit[1] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (Gate_Machine:/\bit[2] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (Gate_Machine:/\bit[3] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (Gate_Machine:/\bit[6] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (Gate_Machine:/\bit[7] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (Gate_Machine:/\bit[8] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (Gate_Machine:/\bit[9] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (Gate_Machine:/\bit[10] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (Gate_Machine:/\bit[11] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (Gate_Machine:/\bit[12] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (Gate_Machine:/\bit[13] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (Gate_Machine:/\bit[14] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (Gate_Machine:/\bit[15] )
+WARNING: [Synth 8-3332] Sequential element (not_so_slow/slowclk/XLXI_37/I_Q0/I_36_35) is unused and will be removed from module VGAcontrol.
+WARNING: [Synth 8-3332] Sequential element (not_so_slow/slowclk/XLXI_37/I_Q1/I_36_35) is unused and will be removed from module VGAcontrol.
+WARNING: [Synth 8-3332] Sequential element (not_so_slow/slowclk/XLXI_37/I_Q2/I_36_35) is unused and will be removed from module VGAcontrol.
+WARNING: [Synth 8-3332] Sequential element (not_so_slow/slowclk/XLXI_37/I_Q3/I_36_35) is unused and will be removed from module VGAcontrol.
+WARNING: [Synth 8-3332] Sequential element (not_so_slow/slowclk/XLXI_44/I_Q0/I_36_35) is unused and will be removed from module VGAcontrol.
+WARNING: [Synth 8-3332] Sequential element (not_so_slow/slowclk/XLXI_44/I_Q1/I_36_35) is unused and will be removed from module VGAcontrol.
+WARNING: [Synth 8-3332] Sequential element (not_so_slow/slowclk/XLXI_44/I_Q2/I_36_35) is unused and will be removed from module VGAcontrol.
+WARNING: [Synth 8-3332] Sequential element (not_so_slow/slowclk/XLXI_44/I_Q3/I_36_35) is unused and will be removed from module VGAcontrol.
+WARNING: [Synth 8-3332] Sequential element (pickPosition/LR) is unused and will be removed from module Gate_Machine.
+WARNING: [Synth 8-3332] Sequential element (pickPosition/bit[15]) is unused and will be removed from module Gate_Machine.
+WARNING: [Synth 8-3332] Sequential element (pickPosition/bit[14]) is unused and will be removed from module Gate_Machine.
+WARNING: [Synth 8-3332] Sequential element (pickPosition/bit[13]) is unused and will be removed from module Gate_Machine.
+WARNING: [Synth 8-3332] Sequential element (pickPosition/bit[12]) is unused and will be removed from module Gate_Machine.
+WARNING: [Synth 8-3332] Sequential element (pickPosition/bit[11]) is unused and will be removed from module Gate_Machine.
+WARNING: [Synth 8-3332] Sequential element (pickPosition/bit[10]) is unused and will be removed from module Gate_Machine.
+WARNING: [Synth 8-3332] Sequential element (pickPosition/bit[9]) is unused and will be removed from module Gate_Machine.
+WARNING: [Synth 8-3332] Sequential element (pickPosition/bit[8]) is unused and will be removed from module Gate_Machine.
+WARNING: [Synth 8-3332] Sequential element (pickPosition/bit[7]) is unused and will be removed from module Gate_Machine.
+WARNING: [Synth 8-3332] Sequential element (pickPosition/bit[6]) is unused and will be removed from module Gate_Machine.
+WARNING: [Synth 8-3332] Sequential element (pickPosition/bit[5]) is unused and will be removed from module Gate_Machine.
+WARNING: [Synth 8-3332] Sequential element (pickPosition/bit[4]) is unused and will be removed from module Gate_Machine.
+WARNING: [Synth 8-3332] Sequential element (pickPosition/bit[3]) is unused and will be removed from module Gate_Machine.
+WARNING: [Synth 8-3332] Sequential element (pickPosition/bit[2]) is unused and will be removed from module Gate_Machine.
+WARNING: [Synth 8-3332] Sequential element (pickPosition/bit[1]) is unused and will be removed from module Gate_Machine.
+WARNING: [Synth 8-3332] Sequential element (choosePos/LR) is unused and will be removed from module Gate_Machine.
+WARNING: [Synth 8-3332] Sequential element (choosePos/bit[15]) is unused and will be removed from module Gate_Machine.
+WARNING: [Synth 8-3332] Sequential element (choosePos/bit[14]) is unused and will be removed from module Gate_Machine.
+WARNING: [Synth 8-3332] Sequential element (choosePos/bit[13]) is unused and will be removed from module Gate_Machine.
+WARNING: [Synth 8-3332] Sequential element (choosePos/bit[12]) is unused and will be removed from module Gate_Machine.
+WARNING: [Synth 8-3332] Sequential element (choosePos/bit[11]) is unused and will be removed from module Gate_Machine.
+WARNING: [Synth 8-3332] Sequential element (choosePos/bit[10]) is unused and will be removed from module Gate_Machine.
+WARNING: [Synth 8-3332] Sequential element (choosePos/bit[9]) is unused and will be removed from module Gate_Machine.
+WARNING: [Synth 8-3332] Sequential element (choosePos/bit[8]) is unused and will be removed from module Gate_Machine.
+WARNING: [Synth 8-3332] Sequential element (choosePos/bit[7]) is unused and will be removed from module Gate_Machine.
+WARNING: [Synth 8-3332] Sequential element (choosePos/bit[6]) is unused and will be removed from module Gate_Machine.
+WARNING: [Synth 8-3332] Sequential element (choosePos/bit[5]) is unused and will be removed from module Gate_Machine.
+WARNING: [Synth 8-3332] Sequential element (choosePos/bit[4]) is unused and will be removed from module Gate_Machine.
+WARNING: [Synth 8-3332] Sequential element (choosePos/bit[3]) is unused and will be removed from module Gate_Machine.
+WARNING: [Synth 8-3332] Sequential element (choosePos/bit[2]) is unused and will be removed from module Gate_Machine.
+WARNING: [Synth 8-3332] Sequential element (choosePos/bit[1]) is unused and will be removed from module Gate_Machine.
+WARNING: [Synth 8-3332] Sequential element (bit[15]) is unused and will be removed from module Gate_Machine.
+WARNING: [Synth 8-3332] Sequential element (bit[14]) is unused and will be removed from module Gate_Machine.
+WARNING: [Synth 8-3332] Sequential element (bit[13]) is unused and will be removed from module Gate_Machine.
+WARNING: [Synth 8-3332] Sequential element (bit[12]) is unused and will be removed from module Gate_Machine.
+WARNING: [Synth 8-3332] Sequential element (bit[11]) is unused and will be removed from module Gate_Machine.
+WARNING: [Synth 8-3332] Sequential element (bit[10]) is unused and will be removed from module Gate_Machine.
+WARNING: [Synth 8-3332] Sequential element (bit[9]) is unused and will be removed from module Gate_Machine.
+WARNING: [Synth 8-3332] Sequential element (bit[8]) is unused and will be removed from module Gate_Machine.
+WARNING: [Synth 8-3332] Sequential element (bit[7]) is unused and will be removed from module Gate_Machine.
+WARNING: [Synth 8-3332] Sequential element (bit[6]) is unused and will be removed from module Gate_Machine.
+WARNING: [Synth 8-3332] Sequential element (bit[3]) is unused and will be removed from module Gate_Machine.
+WARNING: [Synth 8-3332] Sequential element (bit[2]) is unused and will be removed from module Gate_Machine.
+WARNING: [Synth 8-3332] Sequential element (bit[1]) is unused and will be removed from module Gate_Machine.
+WARNING: [Synth 8-3332] Sequential element (bit[0]) is unused and will be removed from module Gate_Machine.
+WARNING: [Synth 8-3332] Sequential element (ff_instance_1101) is unused and will be removed from module TimeCounter__1.
+WARNING: [Synth 8-3332] Sequential element (ff_instance_1102) is unused and will be removed from module TimeCounter__1.
+WARNING: [Synth 8-3332] Sequential element (ff_instance_1111) is unused and will be removed from module TimeCounter__1.
+WARNING: [Synth 8-3332] Sequential element (ff_instance_1112) is unused and will be removed from module TimeCounter__1.
+WARNING: [Synth 8-3332] Sequential element (ff_instance_1161) is unused and will be removed from module TimeCounter__1.
+WARNING: [Synth 8-3332] Sequential element (ff_instance_1142) is unused and will be removed from module TimeCounter__1.
+WARNING: [Synth 8-3332] Sequential element (ff_instance_1119) is unused and will be removed from module TimeCounter__1.
+WARNING: [Synth 8-3332] Sequential element (ff_instance_1181) is unused and will be removed from module TimeCounter__1.
+WARNING: [Synth 8-3332] Sequential element (ff_instance_1189) is unused and will be removed from module TimeCounter__1.
+WARNING: [Synth 8-3332] Sequential element (ff_instance_1187) is unused and will be removed from module TimeCounter__1.
+WARNING: [Synth 8-3332] Sequential element (ff_instance_1112) is unused and will be removed from module TimeCounter__2.
+WARNING: [Synth 8-3332] Sequential element (ff_instance_1161) is unused and will be removed from module TimeCounter__2.
+WARNING: [Synth 8-3332] Sequential element (ff_instance_1142) is unused and will be removed from module TimeCounter__2.
+WARNING: [Synth 8-3332] Sequential element (ff_instance_1119) is unused and will be removed from module TimeCounter__2.
+WARNING: [Synth 8-3332] Sequential element (ff_instance_1181) is unused and will be removed from module TimeCounter__2.
+WARNING: [Synth 8-3332] Sequential element (ff_instance_1189) is unused and will be removed from module TimeCounter__2.
+WARNING: [Synth 8-3332] Sequential element (ff_instance_1187) is unused and will be removed from module TimeCounter__2.
+WARNING: [Synth 8-3332] Sequential element (ff_instance_1112) is unused and will be removed from module TimeCounter__3.
+WARNING: [Synth 8-3332] Sequential element (ff_instance_1161) is unused and will be removed from module TimeCounter__3.
+WARNING: [Synth 8-3332] Sequential element (ff_instance_1142) is unused and will be removed from module TimeCounter__3.
+WARNING: [Synth 8-3332] Sequential element (ff_instance_1119) is unused and will be removed from module TimeCounter__3.
+WARNING: [Synth 8-3332] Sequential element (ff_instance_1181) is unused and will be removed from module TimeCounter__3.
+WARNING: [Synth 8-3332] Sequential element (ff_instance_1189) is unused and will be removed from module TimeCounter__3.
+WARNING: [Synth 8-3332] Sequential element (ff_instance_1187) is unused and will be removed from module TimeCounter__3.
+WARNING: [Synth 8-3332] Sequential element (ff_instance_1095) is unused and will be removed from module TimeCounter__9.
+WARNING: [Synth 8-3332] Sequential element (ff_instance_1096) is unused and will be removed from module TimeCounter__9.
+WARNING: [Synth 8-3332] Sequential element (ff_instance_1097) is unused and will be removed from module TimeCounter__9.
+WARNING: [Synth 8-3332] Sequential element (ff_instance_1098) is unused and will be removed from module TimeCounter__9.
+WARNING: [Synth 8-3332] Sequential element (ff_instance_1099) is unused and will be removed from module TimeCounter__9.
+WARNING: [Synth 8-3332] Sequential element (ff_instance_1100) is unused and will be removed from module TimeCounter__9.
+WARNING: [Synth 8-3332] Sequential element (ff_instance_1101) is unused and will be removed from module TimeCounter__9.
+WARNING: [Synth 8-3332] Sequential element (ff_instance_1102) is unused and will be removed from module TimeCounter__9.
+WARNING: [Synth 8-3332] Sequential element (ff_instance_1111) is unused and will be removed from module TimeCounter__9.
+WARNING: [Synth 8-3332] Sequential element (ff_instance_1112) is unused and will be removed from module TimeCounter__9.
+WARNING: [Synth 8-3332] Sequential element (ff_instance_1161) is unused and will be removed from module TimeCounter__9.
+WARNING: [Synth 8-3332] Sequential element (ff_instance_1142) is unused and will be removed from module TimeCounter__9.
+WARNING: [Synth 8-3332] Sequential element (ff_instance_1119) is unused and will be removed from module TimeCounter__9.
+WARNING: [Synth 8-3332] Sequential element (ff_instance_1181) is unused and will be removed from module TimeCounter__9.
+WARNING: [Synth 8-3332] Sequential element (ff_instance_1189) is unused and will be removed from module TimeCounter__9.
+WARNING: [Synth 8-3332] Sequential element (ff_instance_1187) is unused and will be removed from module TimeCounter__9.
+WARNING: [Synth 8-3332] Sequential element (ff_instance_1095) is unused and will be removed from module TimeCounter__12.
+WARNING: [Synth 8-3332] Sequential element (ff_instance_1096) is unused and will be removed from module TimeCounter__12.
+WARNING: [Synth 8-3332] Sequential element (ff_instance_1097) is unused and will be removed from module TimeCounter__12.
+WARNING: [Synth 8-3332] Sequential element (ff_instance_1098) is unused and will be removed from module TimeCounter__12.
+WARNING: [Synth 8-3332] Sequential element (ff_instance_1099) is unused and will be removed from module TimeCounter__12.
+WARNING: [Synth 8-3332] Sequential element (ff_instance_1100) is unused and will be removed from module TimeCounter__12.
+INFO: [Common 17-14] Message 'Synth 8-3332' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:22 ; elapsed = 00:00:23 . Memory (MB): peak = 633.813 ; gain = 424.438
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:31 ; elapsed = 00:00:33 . Memory (MB): peak = 633.813 ; gain = 424.438
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:33 ; elapsed = 00:00:36 . Memory (MB): peak = 633.813 ; gain = 424.438
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:35 ; elapsed = 00:00:37 . Memory (MB): peak = 633.813 ; gain = 424.438
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-3295] tying undriven pin gate0/choosePos/bit[0]:R to constant 0
+WARNING: [Synth 8-3295] tying undriven pin gate1/choosePos/bit[0]:R to constant 0
+WARNING: [Synth 8-3295] tying undriven pin gate2/choosePos/bit[0]:R to constant 0
+WARNING: [Synth 8-3295] tying undriven pin gate3/choosePos/bit[0]:R to constant 0
+WARNING: [Synth 8-3295] tying undriven pin gate4/choosePos/bit[0]:R to constant 0
+WARNING: [Synth 8-3295] tying undriven pin gate5/choosePos/bit[0]:R to constant 0
+WARNING: [Synth 8-3295] tying undriven pin gate6/choosePos/bit[0]:R to constant 0
+WARNING: [Synth 8-3295] tying undriven pin gate7/choosePos/bit[0]:R to constant 0
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:36 ; elapsed = 00:00:38 . Memory (MB): peak = 633.813 ; gain = 424.438
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:36 ; elapsed = 00:00:38 . Memory (MB): peak = 633.813 ; gain = 424.438
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:37 ; elapsed = 00:00:39 . Memory (MB): peak = 633.813 ; gain = 424.438
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:37 ; elapsed = 00:00:39 . Memory (MB): peak = 633.813 ; gain = 424.438
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:37 ; elapsed = 00:00:39 . Memory (MB): peak = 633.813 ; gain = 424.438
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:37 ; elapsed = 00:00:39 . Memory (MB): peak = 633.813 ; gain = 424.438
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-----------+------+
+|      |Cell       |Count |
++------+-----------+------+
+|1     |AND2       |     8|
+|2     |AND3       |     4|
+|3     |AND4       |     4|
+|4     |BUF        |     1|
+|5     |BUFG       |     3|
+|6     |CARRY4     |   367|
+|7     |LUT1       |   479|
+|8     |LUT2       |   972|
+|9     |LUT3       |   141|
+|10    |LUT4       |   484|
+|11    |LUT5       |   200|
+|12    |LUT6       |   380|
+|13    |MMCME2_ADV |     1|
+|14    |STARTUPE2  |     1|
+|15    |XOR2       |    16|
+|16    |FDCE       |    16|
+|17    |FDRE       |   527|
+|18    |IBUF       |     9|
+|19    |OBUF       |    25|
++------+-----------+------+
+
+Report Instance Areas: 
++------+-----------------+---------------------------+------+
+|      |Instance         |Module                     |Cells |
++------+-----------------+---------------------------+------+
+|1     |top              |                           |  3638|
+|2     |  selScore       |m2_1x8                     |     1|
+|3     |  selSeg6        |m2_1x8_29                  |     7|
+|4     |  ColumnCount    |counterUD16L               |   705|
+|5     |    count1       |countUD4L_80               |   224|
+|6     |    count2       |countUD4L_81               |   185|
+|7     |    count3       |countUD4L_82               |   138|
+|8     |    count4       |countUD4L_83               |   158|
+|9     |  DWCount        |TimeCounter                |    70|
+|10    |  EveryQsec      |TimeCounter_0              |    13|
+|11    |  Foursecond     |TimeCounter_1              |    19|
+|12    |  FrameCount     |Every8Frame                |     8|
+|13    |  Game           |StateMachine               |   356|
+|14    |  GateUP0        |TimeCounter_2              |    40|
+|15    |  GateUP00       |TimeCounter_3              |    79|
+|16    |  GateUP01       |TimeCounter_4              |    83|
+|17    |  GateUP02       |TimeCounter_5              |    85|
+|18    |  GateUP03       |TimeCounter_6              |    79|
+|19    |  GateUP04       |TimeCounter_7              |    75|
+|20    |  GateUP05       |TimeCounter_8              |    79|
+|21    |  GateUP06       |TimeCounter_9              |    79|
+|22    |  GateUP07       |TimeCounter_10             |    83|
+|23    |  GateUP1        |TimeCounter_11             |    40|
+|24    |  GateUP2        |TimeCounter_12             |    39|
+|25    |  GateUP3        |TimeCounter_13             |    40|
+|26    |  GateUP4        |TimeCounter_14             |    40|
+|27    |  GateUP5        |TimeCounter_15             |    40|
+|28    |  GateUP6        |TimeCounter_16             |    40|
+|29    |  GateUP7        |TimeCounter_17             |    40|
+|30    |  RingCount      |RingCounter                |     8|
+|31    |  RowCount       |counterUD16L_18            |   491|
+|32    |    count1       |countUD4L                  |   113|
+|33    |    count2       |countUD4L_77               |   142|
+|34    |    count3       |countUD4L_78               |   116|
+|35    |    count4       |countUD4L_79               |   120|
+|36    |  ScoreCount     |TurkeyCounter              |   122|
+|37    |  SideLCount     |TimeCounter_19             |    36|
+|38    |  SideRCount     |TimeCounter_20             |    74|
+|39    |  TotalFrames    |TimeCounter_21             |    19|
+|40    |  gate0          |Gate_Machine               |    76|
+|41    |    choosePos    |chooseRND_73               |     2|
+|42    |    pickPosition |chooseRND_74               |     8|
+|43    |    runLFSR      |LFSR_75                    |     9|
+|44    |    selRnd       |m8x16_76                   |     2|
+|45    |  gate1          |Gate_Machine_22            |    70|
+|46    |    choosePos    |chooseRND_69               |     2|
+|47    |    pickPosition |chooseRND_70               |     8|
+|48    |    runLFSR      |LFSR_71                    |     9|
+|49    |    selRnd       |m8x16_72                   |     2|
+|50    |  gate2          |Gate_Machine_23            |    76|
+|51    |    choosePos    |chooseRND_65               |     2|
+|52    |    pickPosition |chooseRND_66               |     9|
+|53    |    runLFSR      |LFSR_67                    |     9|
+|54    |    selRnd       |m8x16_68                   |     2|
+|55    |  gate3          |Gate_Machine_24            |    67|
+|56    |    choosePos    |chooseRND_61               |     2|
+|57    |    pickPosition |chooseRND_62               |     8|
+|58    |    runLFSR      |LFSR_63                    |     9|
+|59    |    selRnd       |m8x16_64                   |     2|
+|60    |  gate4          |Gate_Machine_25            |    68|
+|61    |    choosePos    |chooseRND_57               |     2|
+|62    |    pickPosition |chooseRND_58               |     8|
+|63    |    runLFSR      |LFSR_59                    |     9|
+|64    |    selRnd       |m8x16_60                   |     2|
+|65    |  gate5          |Gate_Machine_26            |    66|
+|66    |    choosePos    |chooseRND_53               |     2|
+|67    |    pickPosition |chooseRND_54               |     8|
+|68    |    runLFSR      |LFSR_55                    |     9|
+|69    |    selRnd       |m8x16_56                   |     2|
+|70    |  gate6          |Gate_Machine_27            |    65|
+|71    |    choosePos    |chooseRND_49               |     2|
+|72    |    pickPosition |chooseRND_50               |     8|
+|73    |    runLFSR      |LFSR_51                    |     9|
+|74    |    selRnd       |m8x16_52                   |     2|
+|75    |  gate7          |Gate_Machine_28            |    75|
+|76    |    choosePos    |chooseRND                  |     2|
+|77    |    pickPosition |chooseRND_48               |     8|
+|78    |    runLFSR      |LFSR                       |     9|
+|79    |    selRnd       |m8x16                      |     2|
+|80    |  not_so_slow    |lab7_clks                  |    55|
+|81    |    my_clk_inst  |clk_wiz_0                  |     4|
+|82    |    slowclk      |clkcntrl4                  |    50|
+|83    |      XLXI_38    |CB4CE_MXILINX_clkcntrl4    |    12|
+|84    |        I_Q0     |FTCE_MXILINX_clkcntrl4_44  |     2|
+|85    |        I_Q1     |FTCE_MXILINX_clkcntrl4_45  |     2|
+|86    |        I_Q2     |FTCE_MXILINX_clkcntrl4_46  |     2|
+|87    |        I_Q3     |FTCE_MXILINX_clkcntrl4_47  |     2|
+|88    |      XLXI_39    |CB4CE_MXILINX_clkcntrl4_30 |    12|
+|89    |        I_Q0     |FTCE_MXILINX_clkcntrl4_40  |     2|
+|90    |        I_Q1     |FTCE_MXILINX_clkcntrl4_41  |     2|
+|91    |        I_Q2     |FTCE_MXILINX_clkcntrl4_42  |     2|
+|92    |        I_Q3     |FTCE_MXILINX_clkcntrl4_43  |     2|
+|93    |      XLXI_40    |CB4CE_MXILINX_clkcntrl4_31 |    12|
+|94    |        I_Q0     |FTCE_MXILINX_clkcntrl4_36  |     2|
+|95    |        I_Q1     |FTCE_MXILINX_clkcntrl4_37  |     2|
+|96    |        I_Q2     |FTCE_MXILINX_clkcntrl4_38  |     2|
+|97    |        I_Q3     |FTCE_MXILINX_clkcntrl4_39  |     2|
+|98    |      XLXI_45    |CB4CE_MXILINX_clkcntrl4_32 |    12|
+|99    |        I_Q0     |FTCE_MXILINX_clkcntrl4     |     2|
+|100   |        I_Q1     |FTCE_MXILINX_clkcntrl4_33  |     2|
+|101   |        I_Q2     |FTCE_MXILINX_clkcntrl4_34  |     2|
+|102   |        I_Q3     |FTCE_MXILINX_clkcntrl4_35  |     2|
++------+-----------------+---------------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:37 ; elapsed = 00:00:39 . Memory (MB): peak = 633.813 ; gain = 424.438
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 236 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:25 ; elapsed = 00:00:31 . Memory (MB): peak = 633.813 ; gain = 112.359
+Synthesis Optimization Complete : Time (s): cpu = 00:00:37 ; elapsed = 00:00:39 . Memory (MB): peak = 633.813 ; gain = 424.438
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 411 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 33 instances were transformed.
+  AND2 => LUT2: 8 instances
+  AND3 => LUT3: 4 instances
+  AND4 => LUT4: 4 instances
+  BUF => LUT1: 1 instances
+  XOR2 => LUT2: 16 instances
+
+INFO: [Common 17-83] Releasing license: Synthesis
+294 Infos, 172 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:38 ; elapsed = 00:00:39 . Memory (MB): peak = 642.086 ; gain = 432.574
+INFO: [Common 17-1381] The checkpoint 'C:/Users/ariky/Documents/CMPE100/lab7/lab7.runs/synth_1/VGAcontrol.dcp' has been generated.
+report_utilization: Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.046 . Memory (MB): peak = 642.086 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Fri Mar 09 23:53:44 2018...

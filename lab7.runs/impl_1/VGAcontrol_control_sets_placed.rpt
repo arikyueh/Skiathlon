@@ -1,0 +1,111 @@
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.3 (win64) Build 1682563 Mon Oct 10 19:07:27 MDT 2016
+| Date         : Fri Mar 09 23:54:23 2018
+| Host         : LAPTOP-4C8EFTEU running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file VGAcontrol_control_sets_placed.rpt
+| Design       : VGAcontrol
+| Device       : xc7a35t
+---------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Flip-Flop Distribution
+3. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Number of unique control sets                            |    46 |
+| Unused register locations in slices containing registers |   153 |
++----------------------------------------------------------+-------+
+
+
+2. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |             111 |           51 |
+| No           | No                    | Yes                    |               0 |            0 |
+| No           | Yes                   | No                     |               8 |            8 |
+| Yes          | No                    | No                     |              60 |           29 |
+| Yes          | No                    | Yes                    |               0 |            0 |
+| Yes          | Yes                   | No                     |             364 |          126 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+3. Detailed Control Set Information
+-----------------------------------
+
++------------------------------+-----------------------------------------+------------------------+------------------+----------------+
+|         Clock Signal         |              Enable Signal              |    Set/Reset Signal    | Slice Load Count | Bel Load Count |
++------------------------------+-----------------------------------------+------------------------+------------------+----------------+
+|  not_so_slow/slowclk/clk_out | GateUP5/tempReload                      |                        |                1 |              1 |
+|  not_so_slow/slowclk/clk_out | GateUP2/tempReload                      |                        |                1 |              1 |
+|  not_so_slow/slowclk/clk_out | GateUP4/tempReload                      |                        |                1 |              1 |
+|  not_so_slow/slowclk/clk_out | GateUP3/tempReload                      |                        |                1 |              1 |
+|  not_so_slow/slowclk/clk_out | GateUP7/tempReload                      |                        |                1 |              1 |
+|  not_so_slow/slowclk/clk_out | GateUP0/tempReload                      |                        |                1 |              1 |
+|  not_so_slow/slowclk/clk_out | GateUP6/tempReload                      |                        |                1 |              1 |
+|  not_so_slow/slowclk/clk_out | GateUP1/tempReload                      |                        |                1 |              1 |
+|  not_so_slow/slowclk/clk_out | ColumnCount/count1/t1                   |                        |                3 |              4 |
+|  not_so_slow/slowclk/clk_out | ColumnCount/count1/t1_0                 |                        |                1 |              4 |
+|  not_so_slow/slowclk/clk_out | ColumnCount/count2/t1                   |                        |                1 |              4 |
+|  not_so_slow/slowclk/clk_out | ColumnCount/count3/t1                   |                        |                3 |              4 |
+|  not_so_slow/slowclk/clk_out | RowCount/count1/ff_instance_1098_0      |                        |                1 |              4 |
+|  not_so_slow/slowclk/clk_out | RowCount/count1/ff_instance_1111        | FrameCount/Frames[0]   |                1 |              4 |
+|  not_so_slow/slowclk/clk_out | RowCount/count3/t1                      |                        |                1 |              4 |
+|  not_so_slow/slowclk/clk_out | not_so_slow/slowclk/XLXI_38/I_36_31_n_0 |                        |                2 |              4 |
+|  not_so_slow/slowclk/clk_out | not_so_slow/slowclk/XLXI_39/CEO         |                        |                2 |              4 |
+|  not_so_slow/slowclk/clk_out | not_so_slow/slowclk/XLXI_40/CEO         |                        |                2 |              4 |
+|  not_so_slow/slowclk/clk_out | not_so_slow/slowclk/XLXI_45/CEO         |                        |                1 |              4 |
+|  not_so_slow/slowclk/clk_out | GateUP1/tempReload                      | Game/start0            |                3 |              4 |
+|  not_so_slow/slowclk/clk_out | GateUP2/tempReload                      | Game/start0            |                3 |              4 |
+|  not_so_slow/slowclk/clk_out | GateUP3/tempReload                      | Game/start0            |                2 |              4 |
+|  not_so_slow/slowclk/clk_out | GateUP4/tempReload                      | Game/start0            |                3 |              4 |
+|  not_so_slow/slowclk/clk_out | RowCount/count2/t1                      |                        |                1 |              4 |
+|  not_so_slow/slowclk/clk_out | GateUP6/tempReload                      | Game/start0            |                3 |              4 |
+|  not_so_slow/slowclk/clk_out | GateUP7/tempReload                      | Game/start0            |                3 |              4 |
+|  not_so_slow/slowclk/clk_out | GateUP5/tempReload                      | Game/start0            |                3 |              4 |
+|  not_so_slow/slowclk/clk_out | GateUP0/tempReload                      | Game/start0            |                3 |              4 |
+|  not_so_slow/slowclk/clk_out | RowCount/count1/ff_instance_1111        | Game/RTimer030_out     |                2 |              6 |
+|  not_so_slow/slowclk/clk_out |                                         | Game/start0            |                8 |              8 |
+|  not_so_slow/slowclk/clk_out | Game/t1                                 |                        |                3 |              8 |
+|  not_so_slow/slowclk/clk_out | RowCount/count1/ff_instance_1111        | Game/RTimer0           |                2 |              9 |
+|  not_so_slow/slowclk/clk_out | RowCount/count1/ff_instance_1111        | gate1/RTimer2          |                2 |              9 |
+|  not_so_slow/slowclk/clk_out | gate7/ff_instance_1095                  | gate7/RTimer014_out    |                7 |             16 |
+|  not_so_slow/slowclk/clk_out | Game/qsec023_out                        | Game/Start             |                4 |             16 |
+|  not_so_slow/slowclk/clk_out | Game/MoveR                              | Game/Start             |                6 |             16 |
+|  not_so_slow/slowclk/clk_out | gate6/ff_instance_1095                  | gate6/RTimer013_out    |                6 |             16 |
+|  not_so_slow/slowclk/clk_out | gate5/ff_instance_1095                  | Game/RTimer012_out     |                6 |             16 |
+|  not_so_slow/slowclk/clk_out | gate4/ff_instance_1095                  | Game/RTimer011_out     |                6 |             16 |
+|  not_so_slow/slowclk/clk_out | gate3/ff_instance_1095                  | Game/RTimer010_out     |                6 |             16 |
+|  not_so_slow/slowclk/clk_out | gate1/ff_instance_1095                  | gate1/RTimer08_out     |                7 |             16 |
+|  not_so_slow/slowclk/clk_out | gate0/ff_instance_1095                  | gate0/ff_instance_1187 |                6 |             16 |
+|  not_so_slow/slowclk/clk_out | gate2/qsec012_out                       | gate2/RTimer09_out     |                6 |             16 |
+|  not_so_slow/slowclk/clk_out | RowCount/count1/MoveL                   | Game/Start             |                5 |             16 |
+|  not_so_slow/slowclk/clk_out |                                         |                        |               51 |            111 |
+|  not_so_slow/slowclk/clk_out | gate1/p_21_in                           | Game/Start             |               31 |            128 |
++------------------------------+-----------------------------------------+------------------------+------------------+----------------+
+
+
++--------+-----------------------+
+| Fanout | Number of ControlSets |
++--------+-----------------------+
+| 1      |                     8 |
+| 4      |                    20 |
+| 6      |                     1 |
+| 8      |                     2 |
+| 9      |                     2 |
+| 16+    |                    13 |
++--------+-----------------------+
+
+
